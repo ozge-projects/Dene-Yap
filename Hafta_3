@@ -1,0 +1,45 @@
+Kodlayıcı: 
+Akış diyagramını veren arkadaşın bu diyagramın sözde kod halini öğretmenine sunmak istiyor. Arkadaşına 
+yardım etmek için sözde kodları oluşturur 
+musun?
+Cevap: 
+Başla
+  Sayac=0, Toplam=0
+  Sayac < 4 Olduğu Sürece
+     a) Toplam = Toplam + Sayac * 2
+     b) Sayac ++
+  Yaz, Toplam
+Bitir.
+
+******************************************************************************************************
+Analizci: 
+Kodlayıcı rozetine ait görevde yer alan akış diyagramını kâğıt üzerinde adım adım çalıştıran tabloyu 
+hazırlayıp, her bir değişkenin ekran çıktısını tahmin edebilir misin?
+
+
+Değişken                             Değer Ekran               Çıktısı
+
+Sayac=0, Toplam=0                    Sayac=0, Toplam=0
+Eğer Sayac < 4                       Doğru
+Toplam = Toplam + Sayac * 2          Toplam = 0 + 0*2 = 0
+Sayac++                              Sayac= 1
+Eğer Sayac < 4                       Doğru
+Toplam = Toplam + Sayac * 2          Toplam = 0 + 1*2 =2
+Sayac++                              Sayac= 2
+Eğer Sayac < 4                       Doğru
+Toplam = Toplam + Sayac * 2          Toplam = 2 + 2*2 =6
+Sayac++                              Sayac= 3
+Eğer Sayac < 4                       Doğru
+Toplam = Toplam + Sayac * 2          Toplam = 6 + 3*2 =12
+Sayac++                              Sayac= 4
+Eğer Sayac < 4                       Yanlış
+Yaz, Toplam                                                     12
+Bitir
+
+******************************************************************************************************
+Tasarlayıcı: 
+İki arkadaş 100 ile 200 arasında 3’e bölünen ancak 5 ile bölünmeyen kaç sayı olduğunu merak edip bir 
+yarışa girmiştir. Biri diğerini geçmek için daha hızlı bir yöntem olan bir algoritma oluşturacaktır.
+Buna göre hazırlayacağı algoritmanın sözde kod ve akış diyagramı nasıl olmalıdır? Onun yerine bunları 
+sen oluşturabilir misin?
+(Görsel olarak paylaşıldı.)
