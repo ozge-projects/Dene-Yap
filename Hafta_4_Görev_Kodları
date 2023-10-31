@@ -1,0 +1,77 @@
+Görev_1
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   int a = 14, b = 3;
+   cout << "Ekleme: " << (a + b) << endl;
+   cout << "Cikarma: " << (a - b) << endl;
+   cout << "Carpma: " << (a * b) << endl;
+   cout << "Bolme: " << (a / b) << endl;
+   cout << "Mod alma: " << (a % b) << endl;
+   cout << "Arttirma: " << a++ << endl;
+   cout << "Arttirma: " << ++a << endl;
+   cout << "Azaltma: " << b-- << endl;
+   cout << "Azaltma: " << --b << endl;
+return 0;
+}
+********************************************************************
+Görev_2
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   int x = 8, y = 7;
+   cout << (x < y) << endl;
+   cout << (x > y) << endl;
+   cout << ((x-1) <= y) << endl;
+   cout << (x >= (y+2)) << endl;
+   cout << (x == y) << endl;
+   cout << (x != y) << endl;
+return 0;
+}
+********************************************************************
+Görev_3
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   int x = 7, y = 1;
+   cout << ((x <= y) || (y>1)) << endl;
+   cout << ((x > 6) && (y==1)) << endl;
+   cout << (x && !y) << endl;
+   cout << (!(x-1) || (y+1 > 1)) << endl;
+return 0;
+}
+********************************************************************
+Görev_4
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   float x, y, z;
+   x = 4.3;
+   y = x;
+   z = x + 2.5 + (y * 3.0);
+   cout << "x: " << x << endl;
+   cout << "y: " << y << endl;
+   cout << "z: " << z << endl << endl;
+   x = y = 2.1;
+   cout << "x: " << x << endl;
+   cout << "y: " << y << endl << endl;
+   x+= 3.8;
+   y+= y * 3.0;
+   cout << "x: " << x << endl;
+   cout << "y: " << y << endl << endl;
+   x/= 2.0;
+   y*= 4.0;
+   cout << "x: " << x << endl;
+   cout << "y: " << y << endl << endl;
+return 0;
+}
