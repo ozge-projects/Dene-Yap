@@ -1,0 +1,91 @@
+Kodlayıcı: Kodlayıcı rozetine ait iki görev bulunmaktadır. Aşağıdaki görevlerden birinin yapılması kodlayıcı rozetinin 
+kazanılması için yeterlidir. 
+
+1. Kullanıcıdan alacağınız yarıçap bilgisi ve tanımlayacağınız sabit pi = 3.14 değerini kullanarak dairenin alanı ve 
+çevresini hesaplayıp ekrana yazdıran programı kodlayınız.
+Yanıt:
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   int yari_cap;
+   const float PI_DEGERI = 3.14;
+   float alan, cevre;
+   cout << "Dairenin yaricap uzunlugunu giriniz: ";
+   cin >> yari_cap;
+   alan = PI_DEGERI * yari_cap * yari_cap;
+   cout << "Dairenin alani: " << alan;
+   cevre = 2 * PI_DEGERI * yari_cap;
+   cout << "\nDairenin cevresi: " << cevre;
+   return(0);
+}
+******************************************************************************************************************************************
+2. 2 kişinin yaşları toplamını hesaplayıp, ekrana yazdıran programın kodunu yazınız.
+Yanıt:
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   int yas1, yas2, yas3;
+   cout << "1. kisinin yasini giriniz:";
+   cin >> yas1;
+   cout << "2. kisinin yasini giriniz:";
+   cin >> yas2;
+   cout << "\nYaslarinizin toplami: " << yas1+yas2;
+   return 0;
+}
+******************************************************************************************************************************************
+Denetleyici: Verilen değişken tanımlamalarından ve ilk değer atamalarından hangileri uygun olmayan değişken tanımı ve değer atamasıdır?
+Yanıt:
+
+int __xyz5;                        int _xyz5;                        bool xyz = -1
+short xyz = 34452; (Y)             int xyz=5.2; (Y)                  int xyz = '*';
+int xyz = 34452;                   char xyz = '\192';                float xyz = 12345.12345 (Y)
+******************************************************************************************************************************************
+Tasarlayıcı: Verilen C++ kodunun çıktısı tahmin edin.
+Kod  
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   const int x;
+   x = 10;
+   cout << x<<;
+}
+Yanıt:
+
+  Çıktı ==> Verilen kodda sabit olarak tanımlanan x değişkenine tanımlama satırının dışında değer atanmaya çalışılmaktadır. Daha önce
+belirtildiği gibi sabitler tanımlanırken ilk değerlerini alır ve daha sonra içerikleri değiştirilemez.
+******************************************************************************************************************************************
+Analizci: 2 kişinin yaşları toplamını hesaplayan, program kodu verilmiştir. Kod üzerinde eksik olan satırları tamamlayınız.
+Eksik Kodlar
+#include <iostream>
+using namespace std;
+int main()
+{
+ int yas1, yas2;
+ cout << "1. kisinin yasini giriniz:";
+ cin >> yas2;
+ return 0;
+}
+Yanıt:
+
+Tamamlanmış Kodlar
+#include <iostream>
+using namespace std;
+int main()
+{
+ int yas1, yas2;
+ cout << "1. kisinin yasini giriniz:";
+ cin >> yas1;
+ cout << "2. kisinin yasini giriniz:";
+ cin >> yas2;
+ cout << "\nYaslarinizin toplami: " << yas1+yas2;
+ return 0;
+}
