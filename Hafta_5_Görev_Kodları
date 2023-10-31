@@ -1,0 +1,102 @@
+Görev_1
+
+include <iostream>
+using namespace std;
+
+int main()
+{
+  int sayi;
+  cin >> sayi;
+ 
+  if(sayi >= 0)
+  {
+    if(sayi%3 == 0)
+      cout << "Sayi 3 ile tam bolunur.";
+    else
+     cout << "Sayi 3 ile tam bolunemez.";
+  }
+  else
+  {
+    cout << "Negatif sayi girdiniz.";
+  }
+return 0;
+}
+************************************************************
+Görev_2
+
+#include <iostream>
+using namespace std;
+int main()
+{
+   int sicaklik;
+   cin >> sicaklik;
+   if(sicaklik < 0)
+       cout << "Kati";
+   else if(sicaklik < 100)
+       cout << "Sivi";
+   else if(sicaklik < 10000)
+       cout << "Gaz";
+   else
+       cout << "Plazma";
+return 0;
+}
+************************************************************
+Görev_3
+
+#include <iostream>
+using namespace std;
+int main()
+{
+  int puan;
+  cout << "notu giriniz:";
+  cin >> puan;
+  if(puan<50)
+     cout << "kaldi";
+  else if(puan<70)
+     cout << "belge yok";
+  else if(puan<85)
+     cout << "tesekkür belgesi";
+  else if(puan<=100)
+     cout << "takdir belgesi";
+  else
+     cout <<"Hatali giris";
+return 0;
+}
+************************************************************
+Görev_4
+
+#include <iostream>
+using namespace std;
+int main()
+{
+   int yas;
+   cout << "yasinizi giriniz:";
+   cin >> yas;
+   if(yas<18)
+     cout << "Ucret: 15 TL ";
+   else if(yas<65)
+     cout << "Ucret: 20 TL ";
+   else
+     cout << "Ucret: 10 TL";
+return 0;
+}
+************************************************************
+Görev_5
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   int saat,maas;
+   cout << "kac saat calisti:";
+   cin >> saat;
+   if(saat<100)
+       maas = saat * 5;
+   else if(saat<250)
+       maas = saat * 5 * 2;
+   else
+   maas = saat * 5 * 3;
+      cout << "Maasiniz: "<< maas;
+return 0;
+}
