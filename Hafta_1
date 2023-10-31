@@ -1,0 +1,43 @@
+/* 
+Tasarlayıcı:
+1. Kişiye özel bir oyuncak tasarlamalısın. Düğmeye bastığımızda şarkı söyleyen, adımızı hatırlayan, saate göre günaydın/iyi akşamlar/iyi geceler dileyen bir oyuncak 
+için giriş-çıkış, CPU, Bellek görevleri neler olmalıdır? Çizerek anlatır mısın?
+Cevap: Bu soru tamamen öğrencinin hayal yeteneğine bağlı olup basitçe; Düğme:,Giriş, Hoparlör: Çıkış, Adın hatırlanması: Bellek, Saatin hesaplanması: CPU olarak düşünülebilir.
+
+2. Yandaki ifadeyi bilgisayar diline çeviriniz. 3x-2xy+4y
+Cevap: 3*x - 2*x*y+4*y
+
+
+3. Arda öğretmen sınav sorularının puan değerini ikili tabana göre aşağıdaki gibi belirledi. Sınavdan en yüksek kaç puan alabilirsin? Cevap anahtarına göre doğruların 1001011 
+şeklinde ise sınavdan kaç alırsın?
+Soru 1 2 3 4 5 6 7
+Puan 64 32 16 8 4 2 1
+Cevap: Sınavdan en yüksek 127 alabilirsin. Sınavdan alacağın not: 64+8+2+1 = 75
+
+
+Analizci: 
+Ayşe’nin parka gitmesi için; Ödevlerini bitirmiş olması (A); Hava sıcaklığının 20-30 derece arasında olması (B); Karnının tok olması (C) gerekiyor. Buna göre Ayşe’nin parka 
+gitmesini mantıksal operatörler ile yazın.
+Cevap:
+A = Ödevini bitirdi mi? (0 ise bitirmedi 1 ise bitirdi.) 
+B = 20<Hava sıcaklığı<30 (Doğru/Yanlış)
+C = Karnı tok mu? (0 ise aç1 ise tok.)
+(A==1 && B ==1 && C==1) Kısaca: (A&&B&&C)
+
+
+Kodlayıcı: 
+Ali bilgisayara 1’den 10’a kadar olan sayıları aşağıdaki koşullara uygun olarak yazdırmak istiyor.  Eğer sayı <= 5 ise sayı = sayı * 2  ----  Eğer sayı > 5 ise sayı = sayı / 2  
+Buna göre bilgisayar ekranında ne yazacaktır?
+Cevap:
+2
+4
+6
+8
+10
+0
+1
+0
+1
+*/
+
+
